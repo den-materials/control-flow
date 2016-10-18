@@ -1,10 +1,16 @@
 <!--
 Creator: Alex White
 Market: SF
+Adapted By: Zeb Girouard
+Market: DEN
 -->
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
 # Mastering Control Flow
+
+<!-- 11:00 5 minutes -->
+
+<!--Hook: How do you know whether to bring a jacket to go out?  What about a rain jacket vs a warm coat?  If you have made this type of decision based on some condition, you have used "control flow".  And that's what we're talking about today.-->
 
 ## Why is this important?
 
@@ -12,14 +18,16 @@ Market: SF
 
 ## What are the objectives?
 *After this workshop, developers will be able to:*
-- Identify and discuss boolean operators and truthiness
-- Use nested `if` statements, ternary operators, and `while` loops
-- Use the `break` keyword and `switch` statements.
+- **Identify** and **discuss** boolean operators and truthiness
+- **Use** nested `if` statements, ternary operators, and `while` loops
+- **Use** the `break` keyword and `switch` statements.
 
 ## Where should we be now?
 *Before this workshop, developers should already be able to:*
-- create basic `if else` conditionals
-- create basic `for` loops
+- **Create** basic `if else` conditionals
+- **Create** basic `for` loops
+
+<!--11:05 15 minutes -->
 
 ## Thruthiness vs Falsiness
 *In programming something that* **evaluates** *to True is said to be truthy.*
@@ -27,7 +35,7 @@ Market: SF
 *Something that* **evaluates** *to False is said to be falsy.*
 
 Most things in JavaScript are *truthy*. In fact,
-only the following become false when converted to a Boolean
+only the following become false when converted to a Boolean.
 
 - `false`
 - `0`
@@ -57,22 +65,30 @@ Why!?
 
 `!!{}`
 
+<!--CFU: Stop-and-jot...THEN test -->
+
 ### `==` vs `===`
 In JavaScript there are two operators used for comparison, `==` and `===`.
 The distinction is simple. Triple-equals checks the *type* while double-equals does not.
-Therefor:
+Therefore:
 
 ```javascript
 1 == '1' // returns true but...
 1 === '1' // returns false.
 ```
-Question: What should programmers usually use?
+**Question: What should programmers usually use?**
+
+<!--11:20 5 minutes -->
 
 ### JavaScript Weirdness
 Most of this is quite logical. These things work in an intuitive way, as they should.
 However, things in JavaScript aren't always so logical...
 
+<!--Start at JS -->
+
 [WAT?](https://www.destroyallsoftware.com/talks/wat)
+
+<!--11:25 15 minutes -->
 
 ### Nested If Statements
 
@@ -93,6 +109,7 @@ if(isRaining){
 That doesn't mean you should nest so deep! More than two layers of `if / else` statement is probably a bad idea.
 
 ### Exercise
+
 #### Can I ride?
 
 Jimmy loves roller coasters, but there are a bunch of rules (ugh!) for riding. For starters, it costs 5 tokens. Check the following additional Requirements:
@@ -116,12 +133,30 @@ Edit the code above to check the following additional Requirements:
 - Replace the previous rule: now riders under 12 must be accompanied by an adult.
 - If the boss isn't looking, you can sneak in!
 - Riders with a park pass get in free.
-[Solution](/solution.js)
+
+<!--Let devs know you will merge solution.js back into master when class is ending -->
+
+<!--11:40 15 minutes -->
+
+## Advanced Control Flow
 
 ### Ternary Operator
 You can think about the ternary operator as a concise "if-else in one line":
 ```javascript
 isRaining ? callTaxi() : keepWalking();
+```
+
+### Exercise
+
+Convert the following if-else statement into a ternary operator:
+
+```javascript
+if (tooTall) {
+  duck();
+}
+else {
+  standTall();
+}
 ```
 
 ### `while` loops
@@ -140,8 +175,21 @@ while (donuts > 0) { // continue condition: as long as there are still donuts...
 }
 ```
 
-### The `break` keyword
+<!-- CFU: What will happen when I hit enter? -->
 
+### `for` loops
+
+In for loops, the initial setup, continue condition, and update expressions happen inside the parentheses.
+
+```js
+for (donuts = 100; donuts > 0; donuts -= 1) {
+  console.log("mmmmm... donut...");
+}
+```
+
+<!-- CFU: What will happen when I hit enter? -->
+
+### The `break` keyword
 
 The break statement terminates the current loop, switch, or label statement and transfers program control to the statement following the terminated statement.
 
@@ -168,7 +216,8 @@ The switch statement evaluates an expression, matching the expression's value to
 
 #### Example:
 
-In the following example, if expr evaluates to "Bananas", the program matches the value with case "Bananas" and executes the associated statement. When break is encountered, the program breaks out of switch and executes the statement following switch. If break were omitted, the statement for case "Cherries" would also be executed.
+In the following example, if expr evaluates to "Bananas", the program matches the value with case "Bananas" and executes the associated statement. When break is encountered, the program breaks out of switch. If break were omitted for "Bananas", the statement for case "Cherries" would also be executed.
+
 ```javascript
 switch (expr) {
   case "Oranges":
@@ -194,6 +243,8 @@ switch (expr) {
 console.log("Is there anything else you'd like?");
 ```
 
+<!--11:55 10 minutes -->
+
 ### Exercise
 Refactor the following conditional using a `switch` statement!
 ```javascript
@@ -205,4 +256,9 @@ if(joke.isFunny === 'yes'){
   stareBlankly();
 };
 ```
-[Solution](/solution.js)
+
+<!--Merge solution.js back into master when work is wrapping up -->
+
+## Resources
+
+- More on [Ternary Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
