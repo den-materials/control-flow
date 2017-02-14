@@ -8,7 +8,7 @@ Market: DEN
 
 # Mastering Control Flow
 
-<!-- 11:20 5 minutes -->
+<!-- 11:15 5 minutes -->
 
 <!--Hook: How do you know whether to bring a jacket to go out?  What about a rain jacket vs a warm coat?  If you have made this type of decision based on some condition, you have used "control flow".  And that's what we're talking about today.-->
 
@@ -27,7 +27,7 @@ Market: DEN
 - **Create** basic `if else` conditionals
 - **Create** basic `for` loops
 
-<!--11:25 15 minutes -->
+<!--11:20 15 minutes -->
 
 ## Thruthiness vs Falsiness
 *In programming something that* **evaluates** *to True is said to be truthy.*
@@ -78,7 +78,7 @@ Therefore:
 ```
 **Question: What should programmers usually use?**
 
-<!--11:40 5 minutes -->
+<!--11:35 5 minutes -->
 
 ### JavaScript Weirdness
 Most of this is quite logical. These things work in an intuitive way, as they should.
@@ -88,7 +88,7 @@ However, things in JavaScript aren't always so logical...
 
 [WAT?](https://www.destroyallsoftware.com/talks/wat)
 
-<!--11:45 15 minutes -->
+<!--11:40 15 minutes -->
 
 ### Nested If Statements
 
@@ -136,7 +136,7 @@ Edit the code above to check the following additional Requirements:
 
 <!--Let devs know you will merge solution.js back into master when class is ending -->
 
-<!--12:00 15 minutes -->
+<!--11:55 5 minutes -->
 
 ## Advanced Control Flow
 
@@ -159,6 +159,8 @@ else {
 }
 ```
 
+<!--12:00 5 minutes -->
+
 ### `while` loops
 
 ![Endless Doughnuts](http://img.pandawhale.com/78624-Homer-Simpson-infinite-donuts-P3EQ.gif)
@@ -176,6 +178,8 @@ while (donuts > 0) { // continue condition: as long as there are still donuts...
 ```
 
 <!-- CFU: What will happen when I hit enter? -->
+
+<!--12:05 10 minutes -->
 
 ### `for` loops
 
