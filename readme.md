@@ -108,7 +108,11 @@ if(isRaining){
 
 That doesn't mean you should nest so deep! More than two layers of `if / else` statement is probably a bad idea.
 
-To keep us from nesting so deep, we can use `&&` - and / `||` - or :
+To keep us from nesting so deep, we can use
+
+`&&` - and
+
+`||` - or
 
 ```javascript
 if(isRaining && !hasUmbrella && !hasRainCoat){
