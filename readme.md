@@ -27,7 +27,7 @@ Market: DEN
 - **Create** basic `if else` conditionals
 - **Create** basic `for` loops
 
-<!--11:20 15 minutes -->
+<!--11:20 10 minutes -->
 
 ## Thruthiness vs Falsiness
 *In programming something that* **evaluates** *to True is said to be truthy.*
@@ -78,7 +78,7 @@ Therefore:
 ```
 **Question: What should programmers usually use?**
 
-<!--11:35 5 minutes -->
+<!--11:30 5 minutes -->
 
 ### JavaScript Weirdness
 Most of this is quite logical. These things work in an intuitive way, as they should.
@@ -88,7 +88,7 @@ However, things in JavaScript aren't always so logical...
 
 [WAT?](https://www.destroyallsoftware.com/talks/wat)
 
-<!--11:40 15 minutes -->
+<!--11:35 15 minutes -->
 
 ### Nested If Statements
 
@@ -101,12 +101,20 @@ if(isRaining){
   if(!hasUmbrella){
     if(!hasRainCoat){
       callTaxi();
-    };
-  };
-};
+    }
+  }
+}
 ```
 
 That doesn't mean you should nest so deep! More than two layers of `if / else` statement is probably a bad idea.
+
+To keep us from nesting so deep, we can use `&&` - and / `||` - or :
+
+```javascript
+if(isRaining && !hasUmbrella && !hasRainCoat){
+  callTaxi();
+};
+```
 
 ### Exercise
 
@@ -136,7 +144,7 @@ Edit the code above to check the following additional Requirements:
 
 <!--Let devs know you will merge solution.js back into master when class is ending -->
 
-<!--11:55 5 minutes -->
+<!--11:50 5 minutes -->
 
 ## Advanced Control Flow
 
@@ -159,7 +167,7 @@ else {
 }
 ```
 
-<!--12:00 5 minutes -->
+<!--11:55 5 minutes -->
 
 ### `while` loops
 
@@ -179,7 +187,7 @@ while (donuts > 0) { // continue condition: as long as there are still donuts...
 
 <!-- CFU: What will happen when I hit enter? -->
 
-<!--12:05 10 minutes -->
+<!--12:00 10 minutes -->
 
 ### `for` loops
 
@@ -247,7 +255,7 @@ switch (expr) {
 console.log("Is there anything else you'd like?");
 ```
 
-<!--12:15 10 minutes -->
+<!--12:10 10 minutes -->
 
 ### Exercise
 Refactor the following conditional using a `switch` statement!
