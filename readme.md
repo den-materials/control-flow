@@ -8,6 +8,7 @@ Market: DEN
 
 # Mastering Control Flow
 
+<!--Actually 11:18 -->
 <!-- 11:15 5 minutes -->
 
 <!--Hook: How do you know whether to bring a jacket to go out?  What about a rain jacket vs a warm coat?  If you have made this type of decision based on some condition, you have used "control flow".  And that's what we're talking about today.-->
@@ -27,6 +28,7 @@ Market: DEN
 - **Create** basic `if else` conditionals
 - **Create** basic `for` loops
 
+<!--Actually 11:21 -->
 <!--11:20 10 minutes -->
 
 ## Thruthiness vs Falsiness
@@ -78,6 +80,7 @@ Therefore:
 ```
 **Question: What should programmers usually use?**
 
+<!--Actually 11:33 -->
 <!--11:30 5 minutes -->
 
 ### JavaScript Weirdness
@@ -88,6 +91,7 @@ However, things in JavaScript aren't always so logical...
 
 [WAT?](https://www.destroyallsoftware.com/talks/wat)
 
+<!--Actually 11:37 -->
 <!--11:35 15 minutes -->
 
 ### Nested If Statements
@@ -148,6 +152,7 @@ Edit the code above to check the following additional Requirements:
 
 <!--Let devs know you will merge solution.js back into master when class is ending -->
 
+<!--Actually 11:54 -->
 <!--11:50 5 minutes -->
 
 ## Advanced Control Flow
@@ -171,6 +176,7 @@ else {
 }
 ```
 
+<!--Actually 12:00 -->
 <!--11:55 5 minutes -->
 
 ### `while` loops
@@ -259,6 +265,7 @@ switch (expr) {
 console.log("Is there anything else you'd like?");
 ```
 
+<!--Actually 12:17 -->
 <!--12:10 10 minutes -->
 
 ### Exercise
