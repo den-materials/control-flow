@@ -8,6 +8,7 @@ Market: DEN
 
 # Mastering Control Flow
 
+<!--11:27 WDI4-->
 <!--Actually 11:18 -->
 <!-- 11:15 5 minutes -->
 
@@ -28,6 +29,7 @@ Market: DEN
 - **Create** basic `if else` conditionals
 - **Create** basic `for` loops
 
+<!--11:33 WDI4 -->
 <!--Actually 11:21 -->
 <!--11:20 10 minutes -->
 
@@ -80,6 +82,7 @@ Therefore:
 ```
 **Question: What should programmers usually use?**
 
+<!--11:43 WDI4 -->
 <!--Actually 11:33 -->
 <!--11:30 5 minutes -->
 
@@ -91,6 +94,7 @@ However, things in JavaScript aren't always so logical...
 
 [WAT?](https://www.destroyallsoftware.com/talks/wat)
 
+<!--WDI4 11:47 -->
 <!--Actually 11:37 -->
 <!--11:35 15 minutes -->
 
@@ -152,6 +156,7 @@ Edit the code above to check the following additional Requirements:
 
 <!--Let devs know you will merge solution.js back into master when class is ending -->
 
+<!--WDI4 12:03 after quick solution walk-through-->
 <!--Actually 11:54 -->
 <!--11:50 5 minutes -->
 
@@ -265,6 +270,7 @@ switch (expr) {
 console.log("Is there anything else you'd like?");
 ```
 
+<!--12:21 WDI4 after introing exercise -->
 <!--Actually 12:17 -->
 <!--12:10 10 minutes -->
 
