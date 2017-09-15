@@ -9,6 +9,7 @@ Market: DEN
 # Mastering Control Flow
 
 <!--11:27 WDI4-->
+<!--WDI5 11:20 -->
 <!--Actually 11:18 -->
 <!-- 11:15 5 minutes -->
 
@@ -71,6 +72,8 @@ Why!?
 
 <!--CFU: Stop-and-jot...THEN test -->
 
+<!--WDI5 11:28 -->
+
 ### `==` vs `===`
 In JavaScript there are two operators used for comparison, `==` and `===`.
 The distinction is simple. Triple-equals checks the *type* while double-equals does not.
@@ -94,6 +97,7 @@ However, things in JavaScript aren't always so logical...
 
 [WAT?](https://www.destroyallsoftware.com/talks/wat)
 
+<!--WDI5 11:34 -->
 <!--WDI4 11:47 -->
 <!--Actually 11:37 -->
 <!--11:35 15 minutes -->
@@ -154,8 +158,10 @@ Edit the code above to check the following additional Requirements:
 - If the boss isn't looking, you can sneak in!
 - Riders with a park pass get in free.
 
+<!--WDI5 11:38 turning over to devs, coming back for soln 11: -->
 <!--Let devs know you will merge solution.js back into master when class is ending -->
 
+<!--11:55 WDI5 -->
 <!--WDI4 12:03 after quick solution walk-through-->
 <!--Actually 11:54 -->
 <!--11:50 5 minutes -->
@@ -181,6 +187,8 @@ else {
 }
 ```
 
+
+<!--WDI5 12:0 -->
 <!--Actually 12:00 -->
 <!--11:55 5 minutes -->
 
@@ -270,6 +278,7 @@ switch (expr) {
 console.log("Is there anything else you'd like?");
 ```
 
+<!--WDI5 12:10 -->
 <!--12:21 WDI4 after introing exercise -->
 <!--Actually 12:17 -->
 <!--12:10 10 minutes -->
@@ -286,6 +295,7 @@ if(joke.isFunny === 'yes'){
 };
 ```
 
+<!--WDI5 12:19 after going over answer and questions -->
 <!--Merge solution.js back into master when work is wrapping up -->
 
 ## Resources
