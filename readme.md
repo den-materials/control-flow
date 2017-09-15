@@ -186,7 +186,7 @@ else {
 
 ### `while` loops
 
-![Endless Doughnuts](http://img.pandawhale.com/78624-Homer-Simpson-infinite-donuts-P3EQ.gif)
+![Endless Doughnuts](homerDonut.gif)
 
 __While doughnut, eat doughnut!__
 
