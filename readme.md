@@ -166,6 +166,29 @@ Edit the code above to check the following additional Requirements:
 <!--Actually 11:54 -->
 <!--11:50 5 minutes -->
 
+### Assignments using OR
+#### Consider &&:
+
+true && true => true
+
+true && false => false
+
+false && true => false
+
+false && false => false
+
+#### The || gives us quite a bit more trues:
+
+true && true => true
+
+true && false => true
+
+false && true => true
+
+false && false => false
+
+In fact, JavaScript doesn't even evaluate the second argument of the && if the first one is false, because it's false regardless of what the second is. Also, with the || operator, if the first argument is false, then the result turns out to be whatever the second argument is. I use this often when assigning variables...
+
 ## Advanced Control Flow
 
 ### Ternary Operator
